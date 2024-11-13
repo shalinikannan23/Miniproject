@@ -1,59 +1,61 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## FibroVision: OpenCV-Powered Insights for IPF Progression
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+"FibroVision: OpenCV-Powered Insights for IPF Progression" is a machine learning-based diagnostic tool designed to aid in the detection and classification of Idiopathic Pulmonary Fibrosis (IPF) using chest CT scans. By integrating clinical data with image processing techniques, this project enhances diagnostic speed, consistency, and accuracy, providing valuable support for radiologists in identifying IPF progression and improving patient outcomes.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+# About
+FibroVision is a machine learning project focused on automating the classification and analysis of Idiopathic Pulmonary Fibrosis (IPF) through chest CT scans. By integrating advanced image processing with clinical data, this tool aids radiologists in diagnosing IPF more quickly, accurately, and consistently. The project leverages Convolutional Neural Networks (CNNs) powered by OpenCV to recognize and predict disease progression, supporting timely medical intervention.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+# Features
+## Automated IPF Detection:
+Utilizes OpenCV to classify IPF progression in chest CT scans, reducing diagnostic time.
+## Clinical Data Integration: 
+Incorporates Forced Vital Capacity (FVC) and other clinical data to improve classification accuracy.
+## User-Friendly Interface:
+Designed for easy interpretation by radiologists.
+## Consistent and Objective Diagnoses: 
+Eliminates subjectivity, providing reliable support for decision-making.
+## High Efficiency: 
+Processes large datasets, meeting the growing demands of medical data analysis.
+
+# Requirements
+## Hardware:
+Processor: Dual Core 2.00 GHz or higher
+<br>
+RAM: 2GB minimum
+<br>
+Storage: 120 GB hard disk
+<br>
+## Software:
+Operating System: Windows 7/8/8.1/10/11
+<br>
+Programming Language: Python
+<br>
+Libraries: TensorFlow, Keras, OpenCV, NumPy
+<br>
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+![image](https://github.com/user-attachments/assets/c6ba244c-d60d-4bad-94e1-ad334dc0d934)
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+![image](https://github.com/user-attachments/assets/81c160ba-f0cf-4c4a-8fa7-38223012f39b)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/9ac40c4b-d4df-4e8c-8362-1cebdde7df96)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![image](https://github.com/user-attachments/assets/9088c4cd-9131-43f8-9667-46815765219e)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+![image](https://github.com/user-attachments/assets/4ee4ee1c-d926-4e5c-a0a3-0e2cbc64d11e)
+
+Detection Accuracy: 81%
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Accuracy: 81%
+Precision: 83%
+Impact: Provides effective IPF diagnosis, reduces manual effort, and enhances consistency in diagnostic processes, supporting better patient outcomes through early and accurate detection.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+1. Smith, J., & Garcia, M. "Advancements in AI for Disease Prognosis: IPF Case Study," ICBES, Boston, 2024.
+2. Raghu, G., & Rochwerg, B., "Clinical Guidelines for IPF Treatment," American Thoracic Society, Denver, 2015.
+3. Walsh, S. L. F., & Jacob, J., "Advanced Imaging in IPF," 12th Intl. Conf. on Lung Diseases, London, 2021.
